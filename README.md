@@ -29,11 +29,10 @@ Kullanıcıdan alınan hedefe (domain, anahtar kelime, IP, hash, e-posta) göre 
 
 ---
 
-## Teknoloji Yığını
+## Teknolojiler
 
-- React 18
+- React.js
 - TypeScript
-- Vite
 - Tailwind CSS
 
 ---
@@ -47,15 +46,6 @@ npm run dev
 
 Tarayıcıda `http://localhost:5173` adresini açın.
 
-Production build:
-
-```bash
-npm run build
-npm run preview
-```
-
----
-
 ## Kullanım
 
 1. Hedef tipini seçin (Domain, Anahtar Kelime, IP, Hash, E-posta).
@@ -63,26 +53,3 @@ npm run preview
 3. Gerekirse kategori ve metin filtrelerini uygulayın.
 4. Sonuç kartlarından **Google'da Çalıştır**, **Kopyala** veya **Doğrudan Bağlantı** butonlarını kullanın.
 5. Çıktıları **TXT** veya **JSON** olarak dışa aktarın.
-
----
-
-## Etik ve Yasal Not
-
-> Bu proje yalnızca **savunma amaçlı CTI araştırmaları** için tasarlanmıştır.
-> Yetkisiz erişim, istismar veya yasa dışı kullanım bu proje kapsamı dışındadır.
-
----
-
-## Teknik Rapor
-
-[Teknik Rapor](./docs/TEKNIK_RAPOR.md)
-
----
-
-## Ekran Görüntüleri
-
-![Ana Ekran](./docs/screenshots/01-ana-ekran.png)
-
-![Sonuç Kartları](./docs/screenshots/02-sonuc-kartlari.png)
-
-![Filtre ve Dışa Aktarma](./docs/screenshots/03-filtre-ve-export.png)
